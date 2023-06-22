@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-02T12:21:20Z" name="Suite" finished-at="2023-06-02T12:21:24Z" duration-ms="4883">
+    <groups>
+    </groups>
+    <test started-at="2023-06-02T12:21:20Z" name="Test" finished-at="2023-06-02T12:21:24Z" duration-ms="4883">
+      <class name="Rest_API_GitHub.PostRequest">
+        <test-method signature="createUser()[pri:0, instance:Rest_API_GitHub.PostRequest@4b41dd5c]" started-at="2023-06-02T12:21:23Z" name="createUser" finished-at="2023-06-02T12:21:24Z" duration-ms="483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+      </class> <!-- Rest_API_GitHub.PostRequest -->
+      <class name="Rest_API_GitHub.GetRequest">
+        <test-method signature="getsingleUser()[pri:0, instance:Rest_API_GitHub.GetRequest@61544ae6]" started-at="2023-06-02T12:21:20Z" name="getsingleUser" finished-at="2023-06-02T12:21:23Z" duration-ms="3546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getsingleUser -->
+      </class> <!-- Rest_API_GitHub.GetRequest -->
+      <class name="Rest_API_GitHub.DeleteRequest">
+        <test-method signature="deleteUser()[pri:0, instance:Rest_API_GitHub.DeleteRequest@5d066c7d]" started-at="2023-06-02T12:21:24Z" name="deleteUser" finished-at="2023-06-02T12:21:24Z" duration-ms="363" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser -->
+      </class> <!-- Rest_API_GitHub.DeleteRequest -->
+      <class name="Rest_API_GitHub.PutRequest">
+        <test-method signature="updateUser()[pri:0, instance:Rest_API_GitHub.PutRequest@3b96c42e]" started-at="2023-06-02T12:21:24Z" name="updateUser" finished-at="2023-06-02T12:21:24Z" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser -->
+      </class> <!-- Rest_API_GitHub.PutRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
